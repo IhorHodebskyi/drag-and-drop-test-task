@@ -1,41 +1,21 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
 }
 
 .zone-1 {
-    width: 500px;
-    height: 500px;
-    border: solid 1px black;
-}
-
-.zone-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-
-    border: solid 1px black;
-}
-
-.ufo {
-    background-color: aqua;
-    padding: 3px;
-}
-
-.dragging {
-    position: absolute;
-    background-color: brown;
+	width: 500px;
+	height: 500px;
+	border: solid 1px black;
 }
 
 span:hover {
-    color: brown;
+	color: brown;
 }
 
 span:active {
-    color: brown;
+	color: brown;
 }

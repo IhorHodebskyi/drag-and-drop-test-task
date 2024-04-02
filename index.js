@@ -2,6 +2,7 @@ const zone1 = document.querySelector(".zone-1");
 const form = document.querySelector(".form");
 const button = document.getElementById("button");
 let ufo = document.querySelectorAll(`span`);
+
 form.addEventListener("submit", onClick);
 
 function onClick(event) {
